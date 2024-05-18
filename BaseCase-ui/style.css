@@ -1,0 +1,159 @@
+/* Add styles here */
+/* html
+{
+    scroll-behavior: smooth;
+} */
+body
+{
+    background-color:color-mix(in srgb, snow 80%, cyan 20%);
+    /* background-color: #52626f; */
+}
+
+nav{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: #52626f; */
+    background-color:color-mix(in srgb, snow 80%, cyan 20%);
+}
+#navbar
+{
+    display: inline-block ;
+    /* for text and navbar to appear side by side*/
+    margin-left: 600px;
+    align-items: center;
+}
+#log_img
+{
+    /* height : 50px;
+    width: 50px; */
+    background-color: green;
+    display : inline-block;
+    /* padding-top: 10px; */
+    /* margin-left: 10px; */
+}
+
+/* #id
+{
+    align-items:center;
+    background-color: aquamarine;
+    display: flex;
+} */
+#img2{
+    /* margin-top: 10px; */
+    background-color: white;
+    height : 50px;
+    width: 50px;
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+} 
+
+#nv_txt
+{
+    /* width:100px; */
+    /* background-color: brown; */
+    margin-left: 50px;
+    display: inline-block;
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home_btn ,#about_btn , #contact_btn , #contests_btn , #discord_btn
+{
+    background-color:color-mix(in srgb, snow 80%, cyan 20%);
+    border:none;
+    font-size: 20px;
+    border-radius:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#home_btn:hover ,#about_btn:hover , #contact_btn:hover , #contests_btn:hover , #discord_btn:hover
+{
+    background-color:rgba(28, 75, 97, 0.725);
+    color:azure;
+    transition: 700ms;
+    border-radius:15px;
+    transition: 100ms;
+}
+nav
+{
+    box-shadow: 0px 1px 5px black;
+    width:99%;
+    position: fixed; /*navbar will stay without moving when scrolling*/
+}
+
+a
+{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover
+{
+    color:azure;
+}
+
+#about_txt , #about_img, #about_section
+{
+    display: inline-block;
+}
+
+#about_section
+{
+    font-size: 21px;
+    /* margin-left: 50px; */
+    /* margin-top: 100px; */
+    height:500px;
+    border-style: none;
+    /* border-color: none; */
+    display: flex;
+    align-items:baseline;
+    padding-top: 50px;
+    /* background-color: brown; */
+    /* background-image: url(image2.png); */
+    /* opacity: 0.1; */
+    width:100%;
+    
+}
+
+#about_txt:hover
+{
+    
+    /* width:1000px; */
+    border-style:ridge;
+    /* transition:1000ms; */
+    border-color:black;
+    transform: scale(1.05);
+    background-color:rgba(28, 75, 97, 0.725);
+    color:azure;
+    transition: transform 0.5s ease-out;
+}
+#about_txt
+{
+    width:650px;
+    /* padding-top:10px;
+    margin-top:10px; */
+    opacity: 1;
+    padding-left:50px;
+    margin-left: 30px;
+    padding-bottom:30px;
+    padding-right:40px;
+    transition: transform 0.5s ease-in;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#about_img{
+    margin-right:40px;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+    padding-top: 10px;
+    transition: transform 0.5s ease-in;
+}
+#image1{
+    height:325px;
+    width:425px;
+}
+
+#about_img:hover{
+    transform:scale(1.1,1.05);
+    transition: transform 0.5s ease-out;
+}
