@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BaseCase - Welcome</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../styles/BaseCase.css">
+</head>
+<body>
+
+  <!-- Header with Title and Login/Logout -->
+  <div class="container-fluid bg-dark text-white p-3 header">
+    <h1 class="nav-content"><span class="nav-title">BaseCase</span> - Programming as a Sport</h1>
+    <div>
+      <button class="btn btn-primary">Login</button>
+      <button class="btn btn-secondary">Logout</button>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Left Side: Logo and About -->
+      <div class="col-md-6">
+        <div class="logo">
+          <img src="../Resources/logo2.jpg" alt="BaseCase Logo" class="img-fluid">
+        </div>
+        <div class="about">
+          <p>
+            BaseCase is your ultimate platform to keep track of coding contests, resources, and various coding platforms. Whether you're a beginner or an expert, BaseCase provides you with the tools to stay on top of the coding game.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right Side: Login/Signup Section -->
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title" id="formTitle">Login</h4>
+            
+            <!-- Login Form -->
+            <form id="loginForm">
+              <div class="form-group">
+                <label for="loginEmail">Email address</label>
+                <input type="email" class="form-control" id="loginEmail" required>
+              </div>
+              <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" class="form-control" id="loginPassword" required>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+
+            <!-- Signup Form (Initially Hidden) -->
+            <form id="signupForm" style="display: none;">
+              <div class="form-group">
+                <label for="signupEmail">Email address</label>
+                <input type="email" class="form-control" id="signupEmail" required>
+              </div>
+              <div class="form-group">
+                <label for="signupUsername">Username</label>
+                <input type="text" class="form-control" id="signupUsername" required>
+              </div>
+              <div class="form-group">
+                <label for="signupPassword">Password</label>
+                <input type="password" class="form-control" id="signupPassword" required>
+              </div>
+              <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword" required>
+              </div>
+              <button type="submit" class="btn btn-success btn-block">Signup</button>
+            </form>
+
+            <p class="form-toggle" id="toggleForm">Don't have an account? Signup</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Footer Cards -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Coding Resources</h4>
+              <p class="card-text">Find the best resources to enhance your coding skills, from beginner to advanced.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Contest Alerts</h4>
+              <p class="card-text">Stay updated with upcoming coding contests on Leetcode, Codeforces, and Codechef.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Join Our Community</h4>
+              <p class="card-text">Connect with like-minded coders and grow together.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Discord Link -->
+      <div class="discord-link">
+        <p>Want to join us? <a href="https://discord.com/invite/example">Join our Discord</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="../scripts/BaseCase.js"></script>
+</body>
+</html>

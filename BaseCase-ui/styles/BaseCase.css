@@ -1,0 +1,73 @@
+.logo img {
+  max-width: 50%;
+  height: auto;
+  text-align: left;
+}
+
+.about {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-content {
+  font-size: medium;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.form-toggle {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer h4 {
+  color: #f8f9fa;
+}
+
+.footer .card {
+  background-color: #495057;
+}
+
+.footer .card-body {
+  text-align: center;
+}
+
+.footer .card-title {
+  font-weight: bold;
+}
+
+.footer .discord-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.footer .discord-link a {
+  color: #00bfff;
+  text-decoration: none;
+}
